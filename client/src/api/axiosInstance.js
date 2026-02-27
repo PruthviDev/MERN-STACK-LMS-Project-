@@ -1,27 +1,9 @@
-// import axios from "axios";
 
-// const axiosInstance = axios.create({
-//   baseURL: "http://localhost:5000",
-//   // ❌ REMOVE default Content-Type completely
-// });
-
-// axiosInstance.interceptors.request.use((config) => {
-//   const token = localStorage.getItem("accessToken");
-
-
-//   if (token) {
-//     config.headers.Authorization = `Bearer ${token}`;
-//   }
-
-//   return config;
-// });
-
-// export default axiosInstance;
 
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://mern-stack-lms-project-8.onrender.com",
 });
 
 axiosInstance.interceptors.request.use((config) => {
