@@ -3,7 +3,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://mern-stack-lms-project-8.onrender.com",
+  baseURL: "https://mern-stack-lms-project-9.onrender.com",
 });
 
 axiosInstance.interceptors.request.use((config) => {
